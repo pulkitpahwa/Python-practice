@@ -10,7 +10,7 @@ sum=0
 while sum<21:
 	a=int(raw_input("How many match sticks are you chosing?? "))
 	b=5-a
-	print "Computer chose"+str(b)+" match sticks"
+	print "Computer drank "+str(b)+" shots"
 	sum=a+b+sum
 if sum==21:
 	print name+" Loose"
